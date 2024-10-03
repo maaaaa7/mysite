@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(4, 0, 7);
+
+}
+h1 {
+  color: aliceblue;
+  font-size: 200px;
+  font-weight: 900;
+
+}
+
+.container h1 span:nth-child(1) {
+    animation: disnye 3s infinite alternate;
+}
+
+.container h1 span:nth-child(2) {
+  animation: disnye 3s 0.3s infinite alternate;
+
+}
+
+.container h1 span:nth-child(3) {
+  animation: disnye 3s 0.5s infinite alternate;
+}
+
+.container h1 span:nth-child(4) {
+  animation: disnye 3s 0.7s infinite alternate;
+}
+
+.container h1 span:nth-child(5) {
+  animation: disnye 3s 0.9s infinite alternate;
+  
+}
+
+.container h1 span:nth-child(6) {
+  animation: disnye 1.1s infinite alternate;
+}
+
+@keyframes disnye {
+  0% {
+    color: pink;
+  }
+
+  25% {
+    color: rgb(230, 72, 251);
+  }
+
+  50% {
+    color: rgb(95, 78, 250);
+  }
+
+  75% {
+    color: rgb(59, 248, 248);
+  }
+
+  100% {
+    color: rgba(248, 248, 59, 0.921);
+}
